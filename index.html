@@ -22,8 +22,8 @@
                 extend: {
                     colors: {
                         usa: {
-                            navy: '#0A3161',
-                            red: '#B31942',
+                            navy: '#0A3161', /* Flag Dark Blue */
+                            red: '#B31942',  /* Flag Deep Red */
                             light: '#F8FAFC',
                             white: '#FFFFFF'
                         }
@@ -182,11 +182,15 @@
                             class="bg-usa-red text-white w-full sm:w-auto px-8 md:px-10 py-3 md:py-4 rounded border-2 border-white shadow-brutal-white hover-lift text-lg font-heading font-black text-center uppercase tracking-wide">
                             Buy on Uniswap
                         </a>
-                        <a href="https://etherscan.io/token/0x72C6ec45873E49338EA37Bd969461d877ac000A9" target="_blank"
-                            rel="noopener noreferrer"
-                            class="bg-white text-usa-navy w-full sm:w-auto px-8 md:px-10 py-3 md:py-4 rounded border-2 border-usa-navy shadow-brutal-white hover-lift text-lg font-heading font-black flex items-center justify-center gap-2 uppercase tracking-wide">
-                            <img src="https://doga-cto.netlify.app/pump.png"
-                                class="w-5 h-5 rounded-full border border-gray-300"> Etherscan
+
+                        <a href="https://dexscreener.com/swap/ethereum/0x6020de886ca545139f3bda8db63a78e3b4e46315"
+                            target="_blank" rel="noopener noreferrer"
+                            class="bg-white text-usa-navy w-full sm:w-auto px-8 md:px-10 py-3 md:py-4 rounded border-2 border-usa-navy shadow-brutal-white hover-lift text-lg font-heading font-black flex items-center justify-center gap-3 uppercase tracking-wide group">
+                            <img src="https://dexscreener.com/favicon.png" alt="DexScreener"
+                                class="w-6 h-6 rounded-full"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <i class="fa-solid fa-chart-line text-usa-navy hidden"></i>
+                            DexScreener
                         </a>
                     </div>
                 </div>
@@ -386,23 +390,25 @@
 
             <div class="flex flex-wrap justify-center gap-4 md:gap-6 mb-10">
                 <a href="https://x.com/dogaonethereum" target="_blank" rel="noopener noreferrer"
-                    class="w-12 h-12 md:w-16 md:h-16 rounded bg-white text-usa-navy flex items-center justify-center hover:bg-usa-red hover:text-white transition-all border-2 border-transparent shadow-brutal"
+                    class="w-12 h-12 md:w-16 md:h-16 rounded bg-white text-usa-navy flex items-center justify-center hover:bg-usa-red hover:text-white transition-all border-2 border-transparent shadow-brutal group"
                     title="Twitter / X">
                     <i class="fa-brands fa-x-twitter text-xl md:text-2xl"></i>
                 </a>
 
                 <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
-                    class="w-12 h-12 md:w-16 md:h-16 rounded bg-white text-usa-navy flex items-center justify-center hover:bg-usa-red hover:text-white transition-all border-2 border-transparent shadow-brutal"
+                    class="w-12 h-12 md:w-16 md:h-16 rounded bg-white text-usa-navy flex items-center justify-center hover:bg-usa-red hover:text-white transition-all border-2 border-transparent shadow-brutal group"
                     title="Telegram">
                     <i class="fa-brands fa-telegram text-xl md:text-2xl"></i>
                 </a>
 
-                <a href="https://etherscan.io/token/0x72C6ec45873E49338EA37Bd969461d877ac000A9" target="_blank"
-                    rel="noopener noreferrer"
-                    class="w-12 h-12 md:w-16 md:h-16 rounded bg-white text-usa-navy flex items-center justify-center hover:bg-usa-red hover:text-white transition-all border-2 border-transparent shadow-brutal"
-                    title="Etherscan">
-                    <img src="https://doga-cto.netlify.app/pump.png"
-                        class="w-5 h-5 md:w-6 md:h-6 grayscale hover:grayscale-0 hover:invert hover:brightness-0 transition-all">
+                <a href="https://dexscreener.com/swap/ethereum/0x6020de886ca545139f3bda8db63a78e3b4e46315"
+                    target="_blank" rel="noopener noreferrer"
+                    class="w-12 h-12 md:w-16 md:h-16 rounded bg-white text-usa-navy flex items-center justify-center hover:bg-usa-red hover:text-white transition-all border-2 border-transparent shadow-brutal group"
+                    title="DexScreener">
+                    <img src="https://dexscreener.com/favicon.png" alt="DexScreener"
+                        class="w-6 h-6 md:w-8 md:h-8 rounded-full group-hover:brightness-0 group-hover:invert transition-all"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <i class="fa-solid fa-chart-line text-xl md:text-2xl hidden"></i>
                 </a>
             </div>
 
