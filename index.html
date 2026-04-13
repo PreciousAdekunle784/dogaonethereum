@@ -158,7 +158,6 @@
 
     <section
         class="relative bg-usa-navy pt-12 pb-20 md:pt-20 md:pb-32 lg:pt-32 lg:pb-40 overflow-hidden border-b-4 border-usa-navy">
-
         <div class="absolute inset-0 opacity-5"
             style="background-image: radial-gradient(#ffffff 2px, transparent 2px); background-size: 30px 30px;"></div>
 
@@ -415,12 +414,18 @@
 
             <p class="font-heading text-lg md:text-xl font-black mb-3 text-center uppercase tracking-widest">American
                 Doge CTO Protocol</p>
-            <p
-                class="text-usa-navy font-bold text-xs md:text-sm font-mono mb-6 md:mb-8 bg-white px-3 py-2 md:px-4 md:py-2 rounded border-2 border-usa-navy break-all text-center">
-                CA: 0x72C6ec45873E49338EA37Bd969461d877ac000A9</p>
+
+            <div onclick="navigator.clipboard.writeText('0x72C6ec45873E49338EA37Bd969461d877ac000A9'); alert('Contract Copied!');"
+                class="cursor-pointer hover:-translate-y-1 transition-transform mb-6 md:mb-8">
+                <p
+                    class="text-usa-navy font-bold text-xs md:text-sm font-mono bg-white px-3 py-2 md:px-4 md:py-2 rounded border-2 border-usa-navy break-all text-center shadow-brutal-white hover:shadow-[2px_2px_0px_0px_rgba(255,255,255,1)] transition-shadow">
+                    <span class="text-usa-red">CA:</span> 0x72C6ec45873E49338EA37Bd969461d877ac000A9
+                </p>
+            </div>
+
             <p
                 class="text-gray-400 text-[9px] md:text-[10px] uppercase tracking-widest text-center max-w-md px-4 font-medium">
-                © 2025 - Made with much love by the DOGA holders.<br>
+                © 2024 - Made with much love by the DOGA holders.<br>
                 Disclaimer: $DOGA is a community meme coin with no intrinsic value.
             </p>
         </div>
